@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --yellow-color: #B0B724;
+            --dark-color: #404134;
+        }
+        
+       
+        .card{
+            display: inline-block;
+            background-color: var(--dark-color);
+            color: var(--yellow-color);
+        }
+
+        .cardfigcaption{
+            padding: 1rem;
+        }
+
+        .rotate-45{
+            transform: rotate(45deg);
+        }
+
+        .rotate-135{
+            transform: rotate(135deg);
+        }
+
+        .opacity-80{
+            opacity: .8;
+        }
+
+        .sepia{
+            filter: sepia(1);
+        }
+    </style>
+</head>
+<body>
+    <h3>Manejo del DOM</h3>
+    <p id="que-es">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt hic saepe eveniet culpa pariatur? Sequi consectetur modi quam doloribus alias consequuntur voluptas eligendi ut vero! Sed odit maiores officiis velit.
+    </p>
+    <nav id="menu">
+        <ul>
+            <li><a href="#">seccion1</a></li>
+            <li><a href="#">seccion2</a></li>
+            <li><a href="#">seccion3</a></li>
+            <li><a href="#">seccion4</a></li>
+            <li><a href="#">seccion5</a></li>
+        </ul>
+    </nav>
+    <input type="text" name="Nombre" placeholder="Nombre">
+
+    <a class="link-dom" href="60-DOM.html" style="background-color: #f7df1e; color: #222;" data-id="1">DOM</a>
+    <section class="cards">
+        <figure class="card">
+              <img src="https://picsum.photos/id/237/200/300" alt="tech" >
+            <figcaption>Pet</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="https://picsum.photos/id/238/200/300" alt="Animals" >
+            <figcaption>City</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="https://picsum.photos/id/235/200/300" alt="People" >
+            <figcaption>Mountain</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="https://picsum.photos/id/232/200/300" alt="Arch" >
+            <figcaption>Stars</figcaption>
+        </figure>
+        <figure class="card">
+            <img src="https://picsum.photos/id/233/200/300" alt="Nature" >
+            <figcaption>Roads</figcaption>
+        </figure>
+    </section>
+</body>
+  <script src="64-DOM: clase 64 a 70.js"></script>
+</html>
